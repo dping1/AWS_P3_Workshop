@@ -36,7 +36,6 @@ This workshop is divided into multiple modules. Module 1 must be completed first
 1. Creating a Notebook Instance
 2. Image Classification Using P3
 3. Object Dertection Using P3
-4. TBD 
 
 Be patient as you work your way through the notebook-based modules. After you run a cell in a notebook, it may take several seconds for the code to show results. For the cells that start training jobs, it may take several minutes. In particular, the last two modules have training jobs that may last up to 10 minutes.  
 
@@ -106,13 +105,13 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ### 4. Download workshop content
 
-1. On the top right corner of the Jupyter Notebook, select **Termainl** from **New** dropdown to open a terminal window.  We will use this terminal to download workshop content from github using git client.
+1. On the top right corner of the Jupyter Notebook, select **Terminal** from **New** dropdown to open a terminal window.  We will use this terminal to download workshop content from github using git client.
 
 ![Access terminal](./images/terminal.png)
 
 2. Inside the termal window, type the following commands to download the content. 
- + cd SageMaker
- + git clone https://github.com/dping1/aws_workshop.git
+ + cd /home/ec2-user/SageMaker
+ + git clone https://github.com/dping1/AWS_P3_Workshop.git
 
 ![download workshop](./images/git.png)
 
@@ -146,8 +145,6 @@ Follow the structions below to start the lab:
 
 <p><strong>NOTE:  training the model for this example typically takes about 40 minutes.</strong></p>
 
-## Module 4: TBD
-TBD
 
 ## Cleanup Guide
 

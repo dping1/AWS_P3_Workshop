@@ -113,7 +113,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
  + cd /home/ec2-user/SageMaker
  + git clone https://github.com/dping1/AWS_P3_Workshop.git
 
-![download workshop](./images/git.png)
+![download workshop](./images/git1.png)
 
 3. Click on the file tab, you will see a new folder called **aws_workshop** showed up
 

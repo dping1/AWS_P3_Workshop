@@ -35,7 +35,7 @@ This workshop is divided into multiple modules. Module 1 must be completed first
 
 1. Creating a Notebook Instance
 2. Image Classification Using P3
-3. Object Dertection Using P3
+3. Object Detection Using P3
 
 Be patient as you work your way through the notebook-based modules. After you run a cell in a notebook, it may take several seconds for the code to show results. For the cells that start training jobs, it may take several minutes. In particular, the last two modules have training jobs that may last up to 10 minutes.  
 

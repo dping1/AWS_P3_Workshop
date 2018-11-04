@@ -10,11 +10,11 @@ Amazon SageMaker is a fully-managed service that enables developers and data sci
 
 ### AWS Account
 
-In order to complete this workshop you'll need an AWS Account with access to create AWS IAM, S3 and SageMaker resources. If you do not have an AWS Account, please follow the [instructions here](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) to create an AWS Account.
+In order to complete this workshop you'll need an AWS Account with access to create AWS IAM, S3, and SageMaker resources. If you do not have an AWS Account, please follow the [instructions here](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) to create an AWS Account.
 
 The code and instructions in this workshop assume only one student is using a given AWS account at a time. If you try sharing an account with another student, you'll run into naming conflicts for certain resources. You can work around these by appending a unique suffix to the resources that fail to create due to conflicts, but the instructions do not provide details on the changes required to make this work.
 
-You will be provided with AWS credit for this workshop. Please ask a workshop spearker or support staff for an AWS credit code, and use this [link](https://console.aws.amazon.com/billing/home?#/credits) to apply the credit to your AWS Account.
+You will be provided with AWS credit for this workshop. Please ask a workshop speaker or support staff for an AWS credit code, and use this [link](https://console.aws.amazon.com/billing/home?#/credits) to apply the credit to your AWS Account.
 
 ### AWS Region
 
@@ -43,7 +43,7 @@ After you have completed the workshop, you can delete all of the resources that 
 
 ## Module 1:  Creating a Notebook Instance
 
-In this module we'll start by creating an Amazon S3 bucket that will be used throughout the workshop.  We'll then create a SageMaker notebook instance, which we will use to run the other workshop modules.
+In this module, we'll start by creating an Amazon S3 bucket that will be used throughout the workshop.  We'll then create a SageMaker notebook instance, which we will use to run the other workshop modules.
 
 ### 1. Create a S3 Bucket
 
@@ -124,7 +124,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 In this module, we'll work our way through an example Jupyter notebook that demonstrates how to use an Amazon-provided algorithm in SageMaker and the Amazon EC2 P3 instance to train an image classification model. More specifically, we'll use SageMaker's image classification algorithm. It uses a convolutional neural network (ResNet) that can be trained from scratch, or trained using transfer learning when a large number of training images are not available
 
-Follow the structions below to start the lab:
+Follow the instructions below to start the lab:
 
 1. Open the **aws_workshop** folder and then the **image_classification_p3** folder in your Jupyter to display a list of Jupyter notebooks.
 2. Click on **Image-classification.ipynb** to open the notebook.
@@ -152,7 +152,7 @@ To avoid charges for resources you no longer need when you're done with this wor
 
 - Endpoints:  these are the clusters of one or more instances serving inferences from your models. If you did not delete them from within the notebooks, you can delete them via the SageMaker console.  To do so, click the **Endpoints** link in the left panel.  Then, for each endpoint, click the radio button next to it, then select **Delete** from the **Actions** drop down menu. You can follow a similar procedure to delete the related Models and Endpoint configurations.
 
-- Notebook instance:  you have two options if you do not want to keep the notebook instance running. If you would like to save it for later, you can stop rather than deleting it. To delete it, click the **Notebook instances** link in the left panel. Next, click the radio button next to the notebook instance created for this workshop, then select **Delete** from the **Actions** drop down menu. To simply stop it instead, just click the **Stop** link.  After it is stopped, you can start it again by clicking the **Start** link.  Keep in mind that if you stop rather than delete it, you will be charged for the storage associated with it.  
+- Notebook instance:  you have two options if you do not want to keep the notebook instance running. If you would like to save it for later, you can stop rather than deleting it. To delete it, click the **Notebook instances** link in the left panel. Next, click the radio button next to the notebook instance created for this workshop, then select **Delete** from the **Actions** drop down menu. To simply stop it instead, just click the **Stop** link.  After it is stopped, you can start it again by clicking the **Start** link.  Keep in mind that if you stop rather than deleting it, you will be charged for the storage associated with it.  
 
 ## License
 

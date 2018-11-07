@@ -130,14 +130,13 @@ Follow the instructions below to start the lab:
 2. Click on **Image-classification.ipynb** to open the notebook.
 3. Follow the instructions in the notebook to continue with the lab.
 
-<p><strong>NOTE: training the model for this example typically takes about 10 minutes.</strong></p>
+<p><strong>NOTE: training the model for this example typically takes about 15 minutes.</strong></p>
 
 
 ## Module 3:  Object Detection Using P3
 
-This notebook is an end-to-end example introducing the Amazon SageMaker Object Detection algorithm. In this demo, we will demonstrate how to train and to host an object detection model on the [COCO dataset](http://cocodataset.org/) using the Single Shot multibox Detector ([SSD](https://arxiv.org/abs/1512.02325)) algorithm. In doing so, we will also demonstrate how to construct a training dataset using the JSON format as this is the format that the training job will consume. We also allow the RecordIO format, which is illustrated in the [RecordIO Notebook](https://github.com/awslabs/amazon-sagemaker-examples/blob/master/introduction_to_amazon_algorithms/object_detection_pascalvoc_coco/object_detection_recordio_format.ipynb). We will also demonstrate how to host and validate this trained model.
+This notebook is an end-to-end example introducing the Amazon SageMaker Object Detection algorithm. In this demo, we will demonstrate how to train and to host an object detection model on the [COCO dataset](http://cocodataset.org/) using the Single Shot multibox Detector ([SSD](https://arxiv.org/abs/1512.02325)) algorithm. In doing so, we will also demonstrate how to construct a training dataset using the RecordIO format as this is the format that the training job will consume. We will also demonstrate how to host and validate this trained model.
 
-Follow the structions below to start the lab:
 
 1. Open the **aws_workshop** folder and then the **object_detection_p3** folder in your Jupyter to display a list of Jupyter notebooks.
 2. Click on **Object-detection-P3.ipynb** to open the notebook.

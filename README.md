@@ -89,9 +89,11 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ![Create IAM Role](./images/IAMrole.png)
 
-6. You can expand the "Tags" section and add tags here if required.
+6. Enter **10** for the **Volume Size In GB - optional** instead of the default 5.
 
-7. Click **Create notebook instance**.  This will take several minutes to complete.
+7. You can expand the "Tags" section and add tags here if required.
+
+8. Click **Create notebook instance**.  This will take several minutes to complete.
 
 ### 3. Accessing the Notebook Instance
 

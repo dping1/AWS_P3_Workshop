@@ -31,13 +31,13 @@ We recommend you use the latest version of Chrome or Firefox to complete this wo
 
 ## Modules
 
-This workshop is divided into multiple modules. Module 1 must be completed first. You can complete the other modules (Modules 2, 3 and 4) in any order.  
+This workshop is divided into multiple modules. Module 1 must be completed first. You can complete the other modules (Modules 2 and 3) in any order.  
 
 1. Creating a Notebook Instance
 2. Image Classification Using P3
 3. Object Detection Using P3
 
-Be patient as you work your way through the notebook-based modules. After you run a cell in a notebook, it may take several seconds for the code to show results. For the cells that start training jobs, it may take several minutes. In particular, the last two modules have training jobs that may last up to 10 minutes.  
+Be patient as you work your way through the notebook-based modules. After you run a cell in a notebook, it may take several seconds for the code to show results. For the cells that start training jobs, it may take 10 to 30 minutes. 
 
 After you have completed the workshop, you can delete all of the resources that were created by following the Cleanup Guide provided with this lab guide. 
 
@@ -85,7 +85,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ![Create Notebook Instance](./images/create-notebook.png)
 
-5. For IAM role, choose **Create a new role**. On the next screen, select **Any S3 bucket** for the **S3 buckets you specify - optional** section, and click **Create role** to continue.
+5. For IAM role, choose **Create a new role**. On the next screen, select **Specific S3 buckets** for the **S3 buckets you specify - optional** section, enter the name of the S3 bucket you created in the last step, and click **Create role** to continue.
 
 ![Create IAM Role](./images/IAMrole.png)
 
@@ -115,7 +115,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ![download workshop](./images/git1.png)
 
-3. Click on the file tab, you will see a new folder called **aws_workshop** showed up
+3. Switch back to the Jupyter notebook home tab, you will see a new folder called **aws_workshop** showed up
 
 ![workshop folder](./images/workshop.png)
 

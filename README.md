@@ -83,7 +83,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 4. Type [First Name]-[Last Name]-workshop into the **Notebook instance name** text box, and select ml.t3.medium for the **Notebook instance type**.
 
 
-![Create Notebook Instance](./images/create-notebook.png)
+![Create Notebook Instance](./images/create-notebook1.png)
 
 5. For IAM role, choose **Create a new role**. On the next screen, select **Specific S3 buckets** for the **S3 buckets you specify - optional** section, enter the name of the S3 bucket you created in the last step, and click **Create role** to continue.
 

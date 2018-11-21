@@ -80,7 +80,7 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 ![Notebook Instances](./images/new_instance.png)
 
-4. Type [First Name]-[Last Name]-workshop into the **Notebook instance name** text box, and select ml.m4.xlarge for the **Notebook instance type**.
+4. Type [First Name]-[Last Name]-workshop into the **Notebook instance name** text box, and select ml.t3.medium for the **Notebook instance type**.
 
 
 ![Create Notebook Instance](./images/create-notebook.png)
@@ -99,9 +99,9 @@ Use the console or AWS CLI to create an Amazon S3 bucket. Keep in mind that your
 
 1. Wait for the server status to change to **InService**. This will take a few minutes.
 
-![Access Notebook](./images/Picture4.png)
+![Access Notebook](./images/startjupyter.png)
 
-2. Click **Open**. You will now see the Jupyter homepage for your notebook instance.
+2. Click **Open Jupyter**. You will now see the Jupyter homepage for your notebook instance.
 
 ![Open Notebook](./images/jupyter.png)
 
@@ -144,7 +144,7 @@ This notebook is an end-to-end example introducing the Amazon SageMaker Object D
 2. Click on **Object-detection-P3.ipynb** to open the notebook.
 3. Follow the instructions in the notebook to continue with the lab.
 
-<p><strong>NOTE:  training the model for this example typically takes about 40 minutes.</strong></p>
+<p><strong>NOTE:  training the model for this example typically takes about 30 minutes.</strong></p>
 
 
 ## Cleanup Guide

@@ -14,7 +14,7 @@ In order to complete this workshop you'll need an AWS Account with access to cre
 
 The code and instructions in this workshop assume only one student is using a given AWS account at a time. If you try sharing an account with another student, you'll run into naming conflicts for certain resources. You can work around these by appending a unique suffix to the resources that fail to create due to conflicts, but the instructions do not provide details on the changes required to make this work.
 
-You will be provided with AWS credit for this workshop. Please ask a workshop speaker or support staff for an AWS credit code, and use this [link](https://console.aws.amazon.com/billing/home?#/credits) to apply the credit to your AWS Account.
+If you are provided with AWS credit for this workshop, use this [link](https://console.aws.amazon.com/billing/home?#/credits) to apply the credit to your AWS Account.
 
 ### AWS Region
 
